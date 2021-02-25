@@ -53,7 +53,7 @@
       <<: *TRAINING_REPOSITORY
       build: &PYTORCH_GPU_TRAINING_PY3 false
       image_size_baseline: 14500
-      base_image_name: BuildGPUPTTrainPy3DockerImage
+      base_image_name: BuildGPUPTTrainPy3Cu101DockerImage
       device_type: &DEVICE_TYPE gpu
       python_version: &DOCKER_PYTHON_VERSION py3
       tag_python_version: &TAG_PYTHON_VERSION py36
